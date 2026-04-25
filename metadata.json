@@ -1,0 +1,6 @@
+{
+  "name": "Runway Platform",
+  "description": "A high-fidelity platform inspired by Runway, including a professional landing page, login (/login), and signup (/signup) experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
