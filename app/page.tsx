@@ -140,7 +140,7 @@ export default function HomePage() {
         </nav>
 
         <div className="p-4 space-y-4">
-          {/* <div className="bg-zinc-900/40 border border-red-900/20 rounded-lg p-4 space-y-3">
+          <div className="bg-zinc-900/40 border border-red-900/20 rounded-lg p-4 space-y-3">
             <div className="flex items-center gap-2 text-white text-[10px] font-bold uppercase tracking-widest text-red-400">
               <CircleAlert className="w-3.5 h-3.5" />
               Action Required
@@ -151,7 +151,7 @@ export default function HomePage() {
             <button className="w-full py-1.5 text-xs font-bold border border-zinc-800 rounded bg-zinc-900/50 hover:bg-zinc-800 transition-colors text-white">
               Update Projects
             </button>
-          </div> */}
+          </div>
 
           <div className="flex items-center justify-between pt-4 border-t border-zinc-900">
             <div className="flex items-center gap-2 cursor-pointer group">
@@ -215,7 +215,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-[380px_1fr] gap-10 items-start">
             {/* Left Column: Stats */}
             <div className="space-y-8">
-              {/* <section className="space-y-4">
+              <section className="space-y-4">
                 <h2 className="text-sm font-bold text-white tracking-tight uppercase px-1">Usage</h2>
                 <div className="bg-black border border-zinc-900 rounded-lg overflow-hidden flex flex-col">
                   <div className="p-4 flex items-center justify-between border-b border-zinc-900 bg-zinc-950/50">
@@ -252,9 +252,9 @@ export default function HomePage() {
                      <ChevronDown className="w-4 h-4 text-zinc-600" />
                   </button>
                 </div>
-              </section> */}
+              </section>
 
-              {/* <section className="space-y-4">
+              <section className="space-y-4">
                 <h2 className="text-sm font-bold text-white tracking-tight uppercase px-1">Alerts</h2>
                 <div className="bg-black border border-zinc-900 rounded-lg p-10 flex flex-col items-center justify-center text-center space-y-5 group cursor-pointer hover:border-zinc-700 transition-all">
                   <div className="w-14 h-14 rounded-full bg-zinc-950 border border-zinc-900 flex items-center justify-center group-hover:scale-110 transition-transform shadow-inner">
@@ -266,7 +266,7 @@ export default function HomePage() {
                   </div>
                   <button className="text-[10px] font-extrabold text-white uppercase tracking-widest px-5 py-2 border border-zinc-800 rounded bg-zinc-950 hover:bg-zinc-900 hover:text-white transition-all">Upgrade to Pro</button>
                 </div>
-              </section> */}
+              </section>
 
               <section className="space-y-4">
                 <h2 className="text-sm font-bold text-white tracking-tight uppercase px-1">Recent Previews</h2>
