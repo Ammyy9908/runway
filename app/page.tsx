@@ -41,9 +41,9 @@ export default function HomePage() {
       <main className="max-w-7xl mx-auto px-6 pt-24 pb-32">
         <div className="text-center space-y-8 max-w-4xl mx-auto">
           <motion.div
-            initial={{ opacity: 1, y: 12 }}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.45 }}
+            transition={{ duration: 0.5 }}
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-zinc-800 bg-zinc-900/50 text-xs font-medium text-zinc-400"
           >
             <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
@@ -52,27 +52,27 @@ export default function HomePage() {
           </motion.div>
           
           <motion.h1 
-            initial={{ opacity: 1, y: 12 }}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.45, delay: 0.05 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
             className="text-5xl md:text-8xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500"
           >
             Runway is the platform for frontend developers
           </motion.h1>
 
           <motion.p
-            initial={{ opacity: 1, y: 12 }}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.45, delay: 0.1 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto leading-relaxed"
           >
             Runway provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more personalized web.
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 1, y: 12 }}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.45, delay: 0.15 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4"
           >
             <Link href="/signup" className="w-full sm:w-auto px-8 py-3 bg-white text-black font-semibold rounded-md hover:bg-zinc-200 transition-colors flex items-center justify-center gap-2">
@@ -105,10 +105,10 @@ export default function HomePage() {
           ].map((feature, idx) => (
             <motion.div
               key={idx}
-              initial={{ opacity: 1, y: 16 }}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.45, delay: idx * 0.08 }}
+              transition={{ duration: 0.5, delay: idx * 0.1 }}
               className="p-8 rounded-2xl border border-zinc-800 bg-zinc-900/20 hover:bg-zinc-900/40 transition-colors space-y-4"
             >
               {feature.icon}
